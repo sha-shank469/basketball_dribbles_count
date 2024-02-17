@@ -11,9 +11,6 @@ It then checks if there was a significant upward change in the y-coordinate (sel
 
 If the conditions are met, it increments the dribble count (self.dribble_count).
 
-# Creativity
-I have also implemented pose detection and person detection. I will be updating the implementations of what mentioned in TO DO.
-
 # Example
 Frame 1: Basketball center at coordinates (100, 200).
 Frame 2: Basketball center moves to coordinates (100, 180).
@@ -26,6 +23,9 @@ delta_y: 180 - 200 = -20
 Given that self.prev_delta_y is None initially, the dribble count will not be updated in this case.
 
 However, in subsequent frames, if the ball moves upwards significantly and then downwards by more than the dribble threshold (indicating a dribble), the dribble count will be incremented accordingly.
+
+# Creativity
+I have also implemented pose detection and person detection. I will be updating the implementations of what mentioned in TO DO.
 
 # TO DO:
 Here i am mentioning what else we can do if a person is moving in field
