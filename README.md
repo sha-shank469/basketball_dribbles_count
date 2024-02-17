@@ -11,6 +11,9 @@ It then checks if there was a significant upward change in the y-coordinate (sel
 
 If the conditions are met, it increments the dribble count (self.dribble_count).
 
+# Creativity
+I have also implemented pose detection and person detection. I will be updating the implementations of what mentioned in TO DO.
+
 # Example
 Frame 1: Basketball center at coordinates (100, 200).
 Frame 2: Basketball center moves to coordinates (100, 180).
