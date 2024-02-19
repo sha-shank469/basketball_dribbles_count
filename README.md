@@ -27,6 +27,11 @@ However, in subsequent frames, if the ball moves upwards significantly and then 
 # Creativity
 I have also implemented pose detection and person detection. I will be updating the implementations of what mentioned in TO DO.
 
+# Tracking of basketball using kalman filter
+Go inside the folder /tracking_basketball_Kalman filter you will find three scripts. This is an individual module i have implemented. It's not integrated with previous code.
+# Run the script
+	python3 basketball_prediction.py
+
 # TO DO:
 Here i am mentioning what else we can do if a person is moving in field
 1. Double Dribbles
